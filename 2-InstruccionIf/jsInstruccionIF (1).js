@@ -1,7 +1,6 @@
 function mostrar()
-{
-//tomo la edad  
-
-
-
-}//FIN DE LA FUNCIÓN
+{   var edad;
+    edad = parseInt(document.getElementById("edad").value);
+    if(edad == 15)
+    {alert("Niña bonita");}
+alert("sarasa")}
