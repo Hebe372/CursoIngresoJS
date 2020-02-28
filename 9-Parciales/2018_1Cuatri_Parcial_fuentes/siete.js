@@ -5,7 +5,7 @@ function mostrar()
     var acumuladorNotas = 0;
     var promedioNotas;
     var notaBaja;
-    var sexoBajo;
+    var sexoNotaBaja;
     var flag = 0;
     var contadorVaronesMas6 = 0;
 
@@ -25,7 +25,7 @@ function mostrar()
 
         if (nota < notaBaja || flag == 0) {
             notaBaja = nota;
-            sexoBajo = sexo;
+            sexoNotaBaja = sexo;
             flag = 1;
         }
 
@@ -37,12 +37,9 @@ function mostrar()
 
     promedioNotas = acumuladorNotas / 5;
 
-    alert("Promedio notas: " + promedioNotas
-        + "\nNota mas baja: "
-        + notaBaja + "\nSexo de la persona con nota baja: "
-        + sexoBajo + "\nCantidad varones con nota >= 6: "
-        + contadorVaronesMas6
-    );
+    alert("Promedio notas: " + promedioNotas + "\nNota mas baja: " + notaBaja 
+    + "\nSexo de la persona con nota baja: " + sexoNotaBaja 
+    + "\nCantidad varones con nota >= 6: " + contadorVaronesMas6);
 
     
 }
