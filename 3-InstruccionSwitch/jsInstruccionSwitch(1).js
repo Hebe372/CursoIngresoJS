@@ -1,25 +1,21 @@
 function mostrar() {
-    var mes = document.getElementById("mes").value;
+    let mes = document.getElementById("mes").value;
 
     switch (mes) {
         case "Enero":
-        case "Febrero":
+            alert("Que comiences bien el año");
+            break;
         case "Marzo":
-        case "Abril":
-        case "Mayo":
-        case "Junio":
-            alert("Falta para el invierno");
+            alert("A clases");
             break;
         case "Julio":
-        case "Agosto":
-            alert("Abrigate que hace frio");
+            alert("Se vienen las vacaciones");
             break;
-        case "Septiembre":
-        case "Octubre":
-        case "Noviembre":
         case "Diciembre":
-            alert("Ya pasamos el frio");
+            alert("Felices fiestas");
             break;
+        default:
+            alert("Es alguno de los otros meses");
     }
 
 }//FIN DE LA FUNCIÓN

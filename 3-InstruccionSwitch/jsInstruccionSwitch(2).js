@@ -1,23 +1,32 @@
 function mostrar() {
 
-    var mes = document.getElementById("mes").value;
+    let mes = document.getElementById("mes").value;
 
     switch (mes) {
         case "Enero":
-            alert("Que comiences bien el año");
-            break;
+            
+        case "Febrero":
+            
         case "Marzo":
-            alert("A clases!!!");
+            
+        case "Abril":
+            
+        case "Mayo":
+            
+        case "Junio":
+            alert("Falta para el invierno");
             break;
         case "Julio":
-            alert("Se vienen las vacaciones!!!");
+            
+        case "Agosto":
+            alert("Abrigate que hace frio");
             break;
         case "Diciembre":
             alert("Felices fiestas!!!");
             break;
+        default:
+            alert ("Ya pasó el frio");
     }
-
-
 
 
 }//FIN DE LA FUNCIÓN
