@@ -1,35 +1,23 @@
 function mostrar()
 {
-    var mes = document.getElementById("mes").value;
-
-    switch (mes) {
+    let mes;
+    mes = document.getElementById("mes").value;
+    switch(mes) {
         case "Febrero":
-            alert("Este mes no tiene mas de 28 dias");
+            alert("Tiene 28 días");
             break;
-            case "Marzo":
-                    alert("Este mes tiene 31 dias");
-                    break;  
-                    case "Enero":
-                    alert("Este mes tiene 31 dias");
-                    break; 
-                    case "Mayo":
-                            alert("Este mes tiene 31 dias");
-                            break; 
-                            case "Julio":
-                            alert("Este mes tiene 31 dias");
-                            break;
-                            case "Agosto":
-                            alert("Este mes tiene 31 dias");
-                            break;
-                            case "Octubre":
-                            alert("Este mes tiene 31 dias");
-                            break;
-                            case "Diciembre":
-                            alert("Este mes tiene 31 dias");
-                            break;
+        case "Enero":
+        case "Marzo":
+        case "Mayo":
+        case "Julio":
+        case "Agosto":
+        case "Octubre":
+        case "Diciembre":
+            alert("Tiene 31 días");
+            break;
         default:
-            alert("Este mes tiene 30");
-            break;
+            alert("Tiene 30 días");
     }
+
 
 }//FIN DE LA FUNCIÓN

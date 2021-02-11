@@ -1,7 +1,7 @@
 function mostrar() {
-    var hora = parseInt(document.getElementById("hora").value);
-
-    switch (hora) {
+    let hora
+    hora = parseInt(document.getElementById("hora").value);
+    switch(hora) {
         case 7:
         case 8:
         case 9:
@@ -10,5 +10,4 @@ function mostrar() {
             alert("Es de mañana");
             break;
     }
-
 }//FIN DE LA FUNCIÓN
